@@ -7,6 +7,8 @@
 body{
     background: url("/images/background.jpg"), linear-gradient( rgba(29, 29, 29, 0.336), rgba(49, 49, 49, 0.336));
     height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     backdrop-filter: blur(10px);
     align-items: center;
