@@ -17,6 +17,14 @@ body{
     font-family: "Roboto";
 }
 
+.logo{
+    margin-right: 32.5rem;
+}
+
+.logo img{
+    width: 100%;
+}
+
 .container{
     background-color: rgba(0, 0, 0, 0.75);
     display: flex;
