@@ -12,6 +12,6 @@ button.addEventListener("click", (e) => {
     console.log(login.value)
     console.log(password.value)
     if(login.value === adminLogin.username && password.value === adminLogin.password){
-        window.location.href = "../pages/products.html";
+        window.location.href = "../pages/home.html";
     }
 })
