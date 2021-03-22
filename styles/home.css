@@ -81,3 +81,39 @@ footer{
     text-align: center;
     box-shadow: 0px 0px 5px rgba(29, 35, 63, 0.514);
 }
+
+.block1{
+    background-color: rgb(196, 60, 100);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.45);
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.block1 #textblock{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.block1 img{
+    width: 50%;
+    margin-left: 5.7rem;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.45);
+}
+
+#block1-title{
+    font-family: "Poppins";
+    color: white;
+    font-size: 4rem;
+    padding-top: 6.5rem;
+    padding-left: 2.5rem;
+}
+
+#block1-subtitle{
+    color: white;
+    font-family: "Poppins";
+    font-size: 1.5rem;
+    padding-left: 2.5rem;
+}
